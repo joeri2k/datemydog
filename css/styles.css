@@ -10,3 +10,12 @@ section {
 nav {
   padding: 0 30px 0 30px;
 }
+.titlt_ {
+  transform: rotate(25deg);
+  position: absolute;
+  top: 150px;
+}
+#features {
+  position: relative;
+  background-color: white;
+}
