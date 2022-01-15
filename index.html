@@ -27,10 +27,30 @@
     <!-- Nav Bar -->
     <nav>
       <div class="container-lg mt-4 p-4 shadow purple_">
-        <div class="">
-          <a href="#title" class="navbar-brand">
-            <span class="h2 text-light">MyApp </span></a
-          >
+        <div class="navbar navbar-expand-md navbar-light">
+          <span class="h2 text-light">MyApp </span>
+          <div class="d-sm-none d-block">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>
+              </div>
+            </div>
+          </div>
+          <div class="d-sm-block d-none">no toggle</div>
         </div>
       </div>
     </nav>
