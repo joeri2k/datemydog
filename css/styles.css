@@ -19,3 +19,6 @@ nav {
   position: relative;
   background-color: white;
 }
+.circular_ {
+  border-radius: 50%;
+}
