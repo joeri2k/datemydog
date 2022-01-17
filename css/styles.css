@@ -1,32 +1,32 @@
 .purple-blue {
-  background-color: #4f01df;
+	background-color: #4f01df;
 }
+
 section {
-  padding: 0 30px 0 30px;
+	padding: 0 30px 0 30px;
 }
+
 nav {
-  padding: 0 30px 0 30px;
+	padding: 0 30px 0 30px;
 }
+
 .tilted_ {
-  transform: rotate(25deg);
+	transform: rotate(25deg);
 }
+
 .crop_ {
-  height: 260px;
-  overflow: hidden;
+	height: 260px;
+	overflow: hidden;
 }
 
 .circular_ {
-  border-radius: 50%;
+	border-radius: 50%;
 }
+
 .purple-icon {
-  color: #4f01df;
+	color: #4f01df;
 }
+
 footer {
-  padding: 0 30px 0 30px;
-}
-.hover_ {
-  color: white;
-}
-.hover_:hover {
-  color: black;
+	padding: 0 30px 0 30px;
 }
