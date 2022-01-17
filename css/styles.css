@@ -12,13 +12,12 @@ nav {
 }
 .tilted_ {
   transform: rotate(25deg);
-  position: absolute;
-  top: 130px;
 }
-#features {
-  position: relative;
-  background-color: white;
+.crop_ {
+  height: 260px;
+  overflow: hidden;
 }
+
 .circular_ {
   border-radius: 50%;
 }
