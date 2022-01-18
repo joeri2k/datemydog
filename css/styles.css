@@ -1,24 +1,24 @@
 .purple-blue {
-	background-color: #4f01df;
+  background-color: rgba(103, 75, 255, 255);
 }
 
-.padding_{
-	padding: 0 20px 0 20px;
+.padding_ {
+  padding: 0 20px 0 20px;
 }
 
 .tilted_ {
-	transform: rotate(25deg);
+  transform: rotate(25deg);
 }
 
 .crop_ {
-	height: 260px;
-	overflow: hidden;
+  height: 260px;
+  overflow: hidden;
 }
 
 .circular_ {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 .purple-icon {
-	color: #4f01df;
+  color: rgba(103, 75, 255, 255);
 }
